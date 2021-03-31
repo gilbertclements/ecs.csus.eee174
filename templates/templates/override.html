@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+   <head>
+      <title>Override Control</title>
+      <link rel="stylesheet" href="../static/hornetstyle.css"/>
+   </head>
+   <body>
+	<h1>Parking Override</h1>
+      <h2>The date and time on the server is: {{ time }}</h2>
+		<h2> Display </h2>
+		<h3> Operation ==>  {{ operat }}</h3>
+		<h3> LEVEL1 ==>  {{ l1full }}</h3>
+		<h3> LEVEL2 ==>  {{ l2full }}</h3>
+		<h2> Commands </h2>
+		<h3> 
+			Operations Ctrl ==> 
+			<a href="/operat/on" class="button"> We are OPEN, Please ENTER! </a>  
+			<a href="/operat/off"class="button"> Sorry, we are CLOSED. Have a nice day. </a>
+		</h3>
+		<h3> 
+			Level 1 FULL ==> 
+			<a href="/l1full/on" class="button">FULL</a>  
+			<a href="/l1full/off"class="button">PARK</a>
+			<a href="/i1/up" class="button">Increment</a>  
+			<a href="/i1/dn"class="button">Decrement</a>
+		</h3>
+		<h3> 
+			Level 2 FULL ==> 
+			<a href="/l2full/on" class="button">FULL</a>  
+			<a href="/l2full/off"class="button">PARK</a>
+			<a href="/i2/up" class="button">Increment</a>  
+			<a href="/i2/dn"class="button">Decrement</a>
+		</h3>
+		<br>
+		Menu
+		      <h3>
+			<a href="/home" class="link">HOME</a>  
+		</h3>
+           <h3>
+      <a href="/" class="link">Log out</a>  
+      </h3>
+
+
+   </body>
+</html>
